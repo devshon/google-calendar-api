@@ -8,7 +8,8 @@ function GoogleCalendar() {
     end_date: "2020-06-10 8:00",
     text: "default event",
     id: 1,
-              }
+  }
+  
   const CLIENT_ID = '30946104616-su4gi1ms8fd81k51enqnp4e019hpa071.apps.googleusercontent.com';
   const API_KEY = 'AIzaSyA40d59652-R8Q21t36mnYSdYhJvmZLtME';
   const DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest"];
