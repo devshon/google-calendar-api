@@ -1,7 +1,9 @@
+import GoogleCalendar from './component/GoogleCalendar'
 
 function App() {
   return (
     <div className="App">
+      <GoogleCalendar/>
     </div>
   );
 }
