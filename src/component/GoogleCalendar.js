@@ -67,6 +67,7 @@ function GoogleCalendar() {
         const promise = items.map(async data => {
           return await delay(data).then((_response)=> _response)
         })
+        
         const result = Promise.all(promise)
         result.then((__response) => {
           let list = []
