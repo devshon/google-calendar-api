@@ -10,10 +10,28 @@ export class DHTMLXScheduler extends Component {
   }
   componentDidMount() {
     const { data } = this.props
+    scheduler.config.header = [
+  "day",
+  "week",
+  "month",
+  "date",
+  "prev",
+  "today",
+  "next"
+    ]
     scheduler.skin = "material";
     scheduler.init(this.schedulerContainer, new Date(), "month");
     scheduler.clearAll();
     scheduler.parse(data);
+  }
+
+  shouldComponentUpdate() {
+    const { forceUpdate } = this.props
+    if (forceUpdate) {
+      return true
+    } else {
+      return false
+    }
   }
 
 render() {

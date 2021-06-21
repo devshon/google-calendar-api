@@ -10,6 +10,7 @@
     "gapi": "0.0.3",
     "gapi-script": "^1.2.0",
     "googleapis": "^76.0.0",
+    "lodash": "^4.17.21",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
